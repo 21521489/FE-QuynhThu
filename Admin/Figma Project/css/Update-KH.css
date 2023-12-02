@@ -1,0 +1,23 @@
+ *{
+        box-sizing:border-box;
+        font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+.infocustomer{
+    font-size: 34px;
+}
+.cancel{
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    border-color: darkgray;
+    border-radius: 5px;
+}
+.submit{
+    width: 90px;
+    height: 30px;
+    background-color: #38c1b9;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <header>
+        <a href=""><i class='bx bx-home-alt' title="Trang chủ"></i></a>
+        <a href="../ProductDetail/index.html" title="Thông tin sản phẩm"><i class='bx bx-detail'></i></a>
+        <a href="../PersonalInfor/personalinfor.html" title="Thông tin cá nhân"><i class='bx bx-user-circle'></i></a>
+        <a href="../CartItem/cartitem.html" title="Giỏ hàng"><i class='bx bx-cart-alt'></i></a> 
+       <a href="../OrderInfor/orderinfor.html" title="Thông tin đơn hàng cá nhân"><i class='bx bx-list-ul'></i></a>
+    </header>  
+    <section>
+        <div class="titletable"><b>Your Cart Items</b></div>
+        <div class="cartitemdiv">
+        <table class="cartitem">
+        <tr>
+            <td class="productimage" rowspan="2"><span><img src="../ProductDetail/images/productdetail2.png"  alt=""/></span>
+            </td>
+            <td class="productname">Combo Cocoon Dầu Gội Bưởi 310ml + Nước Dưỡng Tóc Tinh Dầu Bưởi 310ml
+            </td>
+            <td class="productprice"><span><b>325.000</span> đ</b>
+            </td>
+        </tr>
+        <tr>
+            <td class="quantity">
+                <b>Quantity:</b> <input class="quantity" type="number">
+            </td>
+            <td>
+                <a href="">Remove</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><hr>
+            </td>
+        </tr>
+        <tr>
+            <td class="subtotal"><b>Subtotal</b></td>
+            <td></td>
+            <td class="pricesubtotal"><span><b>325.000</span> đ</td></b>
+        </tr>
+        <tr>
+            <td colspan="2" class="shipinfor">Shipping and Taxes caculated at checkout
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td colspan="3"><a href=""><button class="btn-cartitem">Proceed to checkout</button></a></td>
+        </tr>
+        </table>
+    </div>
+    </section>
+</body>
+</html>

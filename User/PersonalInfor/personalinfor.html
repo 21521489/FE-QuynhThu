@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Thông tin cá nhân</title>
+</head>
+<body>
+    <header>
+        <a href=""><i class='bx bx-home-alt' title="Trang chủ"></i></a>
+        <a href="../ProductDetail/index.html" title="Thông tin sản phẩm"><i class='bx bx-detail'></i></a>
+       <a href="../PersonalInfor/personalinfor.html" title="Thông tin cá nhân"><i class='bx bx-user-circle'></i></a>
+       <a href="../CartItem/cartitem.html" title="Giỏ hàng"><i class='bx bx-cart-alt'></i></a> 
+       <a href="../OrderInfor/orderinfor.html" title="Thông tin đơn hàng cá nhân"><i class='bx bx-list-ul'></i></a>
+    </header>   
+    <section>
+        <table class="UpdateProfile">
+            <tr>
+                <th>Profile Detail</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Last Name"></td>
+                <td><input type="text" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="email" class="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="number" class="phonenumber" placeholder="Phone"></td>
+            </tr>
+            <tr>
+                <th>Billing Address</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Last Name"></td>
+                <td><input type="text" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="City"></td>
+                <td><input type="text" placeholder="So nha"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Viet Nam"></td>
+                <td><input type="text" placeholder="Viet Nam"></td>
+            </tr>
+            <tr>
+                <th>Shipping Address</th>
+                <td id="cb-sameasbilling"><input type="checkbox"> Same as Billing</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Last Name"></td>
+                <td><input type="text" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="City"></td>
+                <td><input type="text" placeholder="So nha"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Viet Nam"></td>
+                <td><input type="text" placeholder="Viet Nam"></td>
+            </tr>
+            <tr><td colspan="2"><button class="btn-updateprofile">Update</button></td>
+            </tr>
+        </table>
+        <table class="updatepassword">
+        <tr><th>Update Password</th></tr>
+        <tr>
+            <td><input type="text" placeholder="Your Current Password"></td></tr>
+        <tr>
+            <td><input type="text" placeholder="New Password"></td></tr>
+        <tr>
+            <td><input type="text" placeholder="Repeat New Password"></td></tr>
+        <tr><td colspan="2"><button class="btn-updatepassword">Update</button></td>
+        </tr>
+        </table>
+    </section>
+</body>
+</html>

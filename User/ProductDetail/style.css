@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+header
+{
+height: 50px;
+width:100%;
+background-color: #FFD1C6;
+display: flex; 
+justify-content:end;
+}
+header i{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+section{
+    display:flex;
+}
+.imageproduct{
+    width:40%;
+}
+.imageproduct img{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.infor{
+    margin-top: 100px;
+    width:50%;
+}
+.description{
+    text-align: justify;
+    width:630px;
+}
+input{
+    margin-left: 50px;
+    height:30px;
+}
+
+.btn-addtocart {  
+    display: inline-block;  
+    padding: 5px 25px;  
+    width:280px;
+    height:40px;
+    font-size: 18px;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    outline: none;  
+    color: #000000;  
+    background-color: #FFD1C6;  
+    border: none;  
+    border-radius: 5px;  
+    box-shadow: 0 5px #999;}
+    
+    .btn-addtocart:hover {
+    background-color: #FFD1C6;
+}
+
+    
+    .btn-addtocart:active {  
+    background-color: #FFD1C6;
+    box-shadow: 0 5px #666;  
+    transform: translateY(4px);
+}
+
+.addtocart i{
+    margin-top: 5px;
+    font-size: 20px;
+}
